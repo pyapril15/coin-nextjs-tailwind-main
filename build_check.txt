@@ -1,0 +1,34 @@
+
+> coin-nextjs-tailwind-main@0.1.0 build
+> next build
+
+▲ Next.js 16.2.1 (Turbopack)
+- Environments: .env.local, .env
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 7.5s
+  Running TypeScript ...
+  Finished TypeScript in 3.5s ...
+  Collecting page data using 7 workers ...
+  Generating static pages using 7 workers (0/9) ...
+⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+  Generating static pages using 7 workers (2/9) 
+  Generating static pages using 7 workers (4/9) 
+  Generating static pages using 7 workers (6/9) 
+✓ Generating static pages using 7 workers (9/9) in 1133ms
+  Finalizing page optimization ...
+
+Route (app)                  Revalidate  Expire
+┌ ○ /                                1m      1y
+├ ○ /_not-found
+├ ƒ /api/auth/[...nextauth]
+├ ○ /documentation
+├ ○ /robots.txt
+├ ○ /signin
+├ ○ /signup
+└ ○ /sitemap.xml
+
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+
